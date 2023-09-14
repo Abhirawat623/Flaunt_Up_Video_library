@@ -1,5 +1,14 @@
 import { Response } from "miragejs";
 
+/**
+ * All the routes related to Videos are present here.
+ * These are Publicly accessible routes.
+ * */
+
+/**
+ * This handler handles gets all videos in the db.
+ * send GET Request at /api/videos
+ * */
 
 export const getAllVideosHandler = function () {
   try {
