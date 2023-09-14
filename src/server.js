@@ -4,7 +4,6 @@
       application: RestSerializer,
     },
     environment,
-    // TODO: Use Relationships to have named relational Data
     models: {
       video: Model,
       category: Model,
