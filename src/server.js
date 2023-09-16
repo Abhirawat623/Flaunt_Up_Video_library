@@ -55,7 +55,6 @@ export function makeServer({ environment = "development" } = {}) {
       watchlater: Model,
     },
 
-    // Runs on the start of the server
     seeds(server) {
       server.logging = false;
       videos.forEach((item) => {
