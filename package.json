@@ -1,8 +1,8 @@
 {
-  "name": "flaunt_up_video_player backend",
-  "version": "1.0.0",
-  "description": "backend fir video library",
-  "main": "index.js",
+  "name": "flaunt_up_video_player_backend",
+  "version": "1.0",
+  "description": "backend for flauntup video library",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
