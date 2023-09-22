@@ -17,6 +17,8 @@ app.use(express.json())
 
 const videoRouter = require('./routers/video.router');
 
+const videoDbRouter = require('./routers/videoDataImport.router');
+
 app.get("/",(req,res)=>{
     res.send("hey devs")
 });
@@ -24,7 +26,7 @@ app.get("/",(req,res)=>{
 //videos
 app.use('/api/videos',videoRouter)
 
-
+app.use('/api/videodata',videoDbRouter);
 
 
 mongoose.connection.once("open",()=>{
