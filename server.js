@@ -19,8 +19,13 @@ const videoRouter = require('./routers/video.router');
 
 const videoDbRouter = require('./routers/videoDataImport.router');
 
+const categoriesRouter = require("./db/categories");
+
+const categoriesDbRouter = require('./routers/categoriesDataImport.router');
+
+
 app.get("/",(req,res)=>{
-    res.send("hey devs")
+    res.send("hello all")
 });
 
 //videos
@@ -28,6 +33,11 @@ app.use('/api/videos',videoRouter)
 
 app.use('/api/videodata',videoDbRouter);
 
+//categories
+
+app.use('/api/categories',categoriesRouter);
+
+app.use('/api/categoriesdata',categoriesDbRouter);
 
 mongoose.connection.once("open",()=>{
     console.log('connected to db');

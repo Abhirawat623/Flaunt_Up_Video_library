@@ -9,7 +9,7 @@ const videoDbRouter = express.Router();
 videoDbRouter.route("/").
 post( async(req,res)=>{
     try{
-        const videoDb = await Video.insertMany(videos)
+        const videoDb = await Video.insertMany(videos.module)
         res.json(videoDb)
     }
     catch(err){
