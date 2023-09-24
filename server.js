@@ -19,7 +19,7 @@ const videoRouter = require('./routers/video.router');
 
 const videoDbRouter = require('./routers/videoDataImport.router');
 
-const categoriesRouter = require("./db/categories");
+const categoriesRouter = require("./routers/categories.router");
 
 const categoriesDbRouter = require('./routers/categoriesDataImport.router');
 
@@ -38,6 +38,15 @@ app.use('/api/videodata',videoDbRouter);
 app.use('/api/categories',categoriesRouter);
 
 app.use('/api/categoriesdata',categoriesDbRouter);
+
+//auth
+const { signUpRouter, logInRouter } = require("./routers/auth.router");
+
+app.use("/api/auth", signUpRouter);
+
+app.use("/api/auth", logInRouter);
+
+
 
 mongoose.connection.once("open",()=>{
     console.log('connected to db');

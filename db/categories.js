@@ -1,8 +1,8 @@
-const { v4: uuid } = require("uuid");
+
 
 const categories ={data: [
   {
-    _id: uuid(),
+  
     categoryName: "Intelligence",
     description: `Three things:
     - Strength/Aesthetics/Fitness- Knowledge/Wisdom/Intelligence- Social Skills/Machiavellianism/Game
@@ -12,7 +12,7 @@ const categories ={data: [
     ~Harsh Strongman`,
   },
   {
-    _id: uuid(),
+  
     categoryName: "Social Skills",
     description: `Three things:
     - Strength/Aesthetics/Fitness- Knowledge/Wisdom/Intelligence- Social Skills/Machiavellianism/Game
@@ -22,7 +22,7 @@ const categories ={data: [
     ~Harsh Strongman`,
   },
   {
-    _id: uuid(),
+  
     categoryName: "Strength",
     description: `Three things:
       - Strength/Aesthetics/Fitness- Knowledge/Wisdom/Intelligence- Social Skills/Machiavellianism/Game
