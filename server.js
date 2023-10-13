@@ -31,7 +31,7 @@ app.get("/",(req,res)=>{
 //videos
 app.use('/api/videos',videoRouter)
 
-app.use('/api/videodata',videoDbRouter);
+app.use('/api/videosdata',videoDbRouter);
 
 //categories
 
