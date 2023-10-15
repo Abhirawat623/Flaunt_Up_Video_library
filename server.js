@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const PORT=3000;
-//mongoose
+
 const mongoose = require('mongoose')
 //dotenv
 const dotenv = require("dotenv");
