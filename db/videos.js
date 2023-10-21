@@ -9,16 +9,7 @@ const videos = {data: [
        "duration":"PT6M39S",
    
     },
-    {
-       "thumbnailPath":"https://i.ytimg.com/vi/1Ty70UJHFuc/mqdefault.jpg",
-       "videoId":"1Ty70UJHFuc",
-       "title":"#1 Question to Ask to Keep Conversations Going",
-       "avatarPath":"https://yt3.ggpht.com/ytc/AKedOLT5H-XhUpM5x2omubuCS66eE_PbZEEd27uuc6Al_A=s88-c-k-c0x00ffffff-no-rj",
-       "creatorName":"Armani Talks",
-       "views":"152",
-       "duration":"PT4M37S",
-      
-    },
+    
     {
        "thumbnailPath":"https://i.ytimg.com/vi/lzjOUgPuoSk/mqdefault.jpg",
        "videoId":"lzjOUgPuoSk",
