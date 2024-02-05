@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
-const PORT=8080;
-//mongoose
+const PORT=3000;
+
 const mongoose = require('mongoose')
 //dotenv
 const dotenv = require("dotenv");
@@ -31,7 +31,7 @@ app.get("/",(req,res)=>{
 //videos
 app.use('/api/videos',videoRouter)
 
-app.use('/api/videodata',videoDbRouter);
+app.use('/api/videosdata',videoDbRouter);
 
 //categories
 

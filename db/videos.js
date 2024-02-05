@@ -9,16 +9,7 @@ const videos = {data: [
        "duration":"PT6M39S",
    
     },
-    {
-       "thumbnailPath":"https://i.ytimg.com/vi/1Ty70UJHFuc/mqdefault.jpg",
-       "videoId":"1Ty70UJHFuc",
-       "title":"#1 Question to Ask to Keep Conversations Going",
-       "avatarPath":"https://yt3.ggpht.com/ytc/AKedOLT5H-XhUpM5x2omubuCS66eE_PbZEEd27uuc6Al_A=s88-c-k-c0x00ffffff-no-rj",
-       "creatorName":"Armani Talks",
-       "views":"152",
-       "duration":"PT4M37S",
-      
-    },
+    
     {
        "thumbnailPath":"https://i.ytimg.com/vi/lzjOUgPuoSk/mqdefault.jpg",
        "videoId":"lzjOUgPuoSk",
@@ -108,16 +99,8 @@ const videos = {data: [
        "duration":"PT5M6S",
       
     },
-    {
-       "thumbnailPath":"https://i.ytimg.com/vi/0fsrZ5YZyAY/mqdefault.jpg",
-       "videoId":"0fsrZ5YZyAY",
-       "title":"This is My Best Calisthenics Workout Plan... (The Superhero Bodyweight Workout 5.0)",
-       "avatarPath":"https://yt3.ggpht.com/aUuYiC10klBZghiF4CpYn90zgT4CmU4-a1eAkB-Or8FHxKBnylSkLPDTzn9sQsooWmp0UpmX=s88-c-k-c0x00ffffff-no-rj",
-       "creatorName":"Bodyweight Muscle",
-       "views":"3436",
-       "duration":"PT3M2S",
-     
-    },
+    
+   
     {
        "thumbnailPath":"https://i.ytimg.com/vi/GCsU9_4ARF0/mqdefault.jpg",
        "videoId":"GCsU9_4ARF0",
