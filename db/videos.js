@@ -1,5 +1,5 @@
 
- export const videos = [
+ const videos = [
   {
     _id: "v_mZ1VnG0tw",
     image: "https://img.youtube.com/vi/v_mZ1VnG0tw/maxresdefault.jpg",
@@ -290,3 +290,5 @@
     description: "Dan Ackerman lists some of the trends and laptops he can't wait for this year."
   },
 ];
+
+module.exports=videos

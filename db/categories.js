@@ -1,8 +1,7 @@
-import { v4 as uuid } from "uuid";
+const {v4: uuid} = require("uuid");  
 
 
-
-export const categories = [
+ const categories = [
   {
     _id: uuid(),
     categoryName: "All",
@@ -29,3 +28,5 @@ export const categories = [
     videoCategory: "laptop"
   }
 ];
+
+module.exports=categories

@@ -2,7 +2,7 @@ const express = require('express');
 
 const categoriesRouter = express.Router();
 
-const categories = require('../db/videos');
+const categories = require('../db/categories');
 
 categoriesRouter.route("/").
 get((req,res)=>{
