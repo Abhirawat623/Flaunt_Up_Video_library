@@ -82,7 +82,7 @@
     channelName: "Trakin Tech",
     views: "1M",
     isTrending: true,
-    category: "phone",
+    category: "trending",
     description:
       "Friends, Welcome To Another Helpful Video- Here are our top picks for the best 5G smartphones for a budget of around ₹20000 rupees-While these are my recommendations, I am sure the majority of you will agree with me because we have done extensive research before making this video. Do let us know if you agree with our list and if you do, make sure you like and subscribe to our channel because we keep bringing you such awesome quality videos on a regular basis."
   },
@@ -258,7 +258,7 @@
     channelName: "PC-Talk with Vikram",
     views: "35K",
     isTrending: false,
-    category: "laptop",
+    category: "trending",
     description: "Hello Everybody, Here I am with another list of best upcoming laptops in India 2022. Watching this full will be very helpful if you are planning to a buy new laptop in 2022. "
   },
   {
