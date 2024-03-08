@@ -2,11 +2,10 @@ const express = require('express');
 
 const videoRouter = express.Router();
 
-const videos = require('../db/videos');
+
+const videoHandle = require("../controllers/videoController");
 
 videoRouter.route("/").
-get((req,res)=>{
-    res.json(videos)
-});
+get(videoHandle);
 
 module.exports = videoRouter;

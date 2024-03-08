@@ -29,7 +29,7 @@ app.get("/",(req,res)=>{
 });
 
 //videos
-app.use('/api/videos',videoRouter)
+app.use('/api/videos',videoRouter);
 
 app.use('/api/videosdata',videoDbRouter);
 
