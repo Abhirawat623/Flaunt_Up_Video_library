@@ -23,6 +23,8 @@ const categoriesRouter = require("./routers/categories.router");
 
 const categoriesDbRouter = require('./routers/categoriesDataImport.router');
 
+const singleVideoRouter = require('./routers/singleVideo.router')
+
 
 app.get("/",(req,res)=>{
     res.send("hello all")
@@ -32,6 +34,8 @@ app.get("/",(req,res)=>{
 app.use('/api/videos',videoRouter);
 
 app.use('/api/videosdata',videoDbRouter);
+
+app.use("/api/videos",singleVideoRouter),
 
 //categories
 

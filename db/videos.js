@@ -1,7 +1,7 @@
 
  const videos = [
   {
-    _id: "v_mZ1VnG0tw",
+    id: "v_mZ1VnG0tw",
     image: "https://img.youtube.com/vi/v_mZ1VnG0tw/maxresdefault.jpg",
     length: "9.00",
     icon:
@@ -15,7 +15,7 @@
       "Ever since technology has become a crucial part of our life, we all seem to be inclining towards smaller and smarter tech gadgets, So in this video we introduce you newest and coolest wearable gadgets in 2020"
   },
   {
-    _id: "dHwtvXIRdi0",
+    id: "dHwtvXIRdi0",
     image: "https://img.youtube.com/vi/dHwtvXIRdi0/maxresdefault.jpg",
     length: "7.45",
     icon:
@@ -29,7 +29,7 @@
       "Friends, The most awaited video of the month is here - upcoming smartphones. In today’s video we are taking a look at all the upcoming smartphones that are launching in March 2022. So do watch this video till the end and make sure you like and share this video with your friends and family. "
   },
   {
-    _id: "3ywADcxe6JM",
+    id: "3ywADcxe6JM",
     image: "https://img.youtube.com/vi/3ywADcxe6JM/maxresdefault.jpg",
     length: "10:20",
     icon:
@@ -42,7 +42,7 @@
     description: "Sahi phone lene ki Ninja techniques!"
   },
   {
-    _id: "ya0de3ucRB4",
+    id: "ya0de3ucRB4",
     image: "https://img.youtube.com/vi/ya0de3ucRB4/maxresdefault.jpg",
     length: "8:11",
     icon:
@@ -59,7 +59,7 @@
     In this video i talked about 5 tips to buy new laptop or you can say 5 mistakes you are doing while buying new laptop.`
   },
   {
-    _id: "hoZF_yRZYxs",
+    id: "hoZF_yRZYxs",
     image: "https://img.youtube.com/vi/hoZF_yRZYxs/maxresdefault.jpg",
     length: "17.09",
     icon:
@@ -73,7 +73,7 @@
       "Top 10 Best Smart Ring for Men and Women that will let you track your fitness goal or pay without using your wallet, alert you about you social media notification and much more."
   },
   {
-    _id: "peBzo2rvzgc",
+    id: "peBzo2rvzgc",
     image: "https://img.youtube.com/vi/peBzo2rvzgc/maxresdefault.jpg",
     length: "6:50",
     icon:
@@ -87,7 +87,7 @@
       "Friends, Welcome To Another Helpful Video- Here are our top picks for the best 5G smartphones for a budget of around ₹20000 rupees-While these are my recommendations, I am sure the majority of you will agree with me because we have done extensive research before making this video. Do let us know if you agree with our list and if you do, make sure you like and subscribe to our channel because we keep bringing you such awesome quality videos on a regular basis."
   },
   {
-    _id: "pMav7RFU1dE",
+    id: "pMav7RFU1dE",
     image: "https://img.youtube.com/vi/pMav7RFU1dE/maxresdefault.jpg",
     length: "8.11",
     icon:
@@ -101,7 +101,7 @@
       "Hi everyone, we have been testing various budget laptops of 2021. In this video, we have listed the best of the bunch. Find out my pick of the best laptop under $700, INR. 65,000 and under 1 lakh in Nepal. "
   },
   {
-    _id: "hrLX8Woiak8",
+    id: "hrLX8Woiak8",
     image: "https://img.youtube.com/vi/hrLX8Woiak8/maxresdefault.jpg",
     length: "1.26",
     icon:
@@ -115,7 +115,7 @@
       "Wearables are technological devices you wear on your body, but what can they actually do?"
   },
   {
-    _id: "t7hyafS-0MY ",
+    id: "t7hyafS-0MY ",
     image: "https://img.youtube.com/vi/t7hyafS-0MY/maxresdefault.jpg",
     length: "8.00",
     icon:
@@ -129,7 +129,7 @@
       "Ever since COVID, we have been using our laptops a lot more, and in this video, we show you 10 useful laptop gadgets that will make your life a whole lot easier. "
   },
   {
-    _id: "ART5DJD6FaU",
+    id: "ART5DJD6FaU",
     image: "https://img.youtube.com/vi/ART5DJD6FaU/maxresdefault.jpg",
     length: "10.20",
     icon:
@@ -143,7 +143,7 @@
       "5 Smart Wearable Technology You Must Have"
   },
   {
-    _id: "78DtfUXydv4",
+    id: "78DtfUXydv4",
     image: "https://img.youtube.com/vi/78DtfUXydv4/maxresdefault.jpg",
     length: "5.55",
     icon:
@@ -156,7 +156,7 @@
     description: "One area in tech innovation that has been gaining more attention today is the wearable technology. These technology products are smartly integrated in existing wearable items that we use every day – which is why the wearable technology is so powerful."
   },
   {
-    _id: "vCvwPAZx_o0",
+    id: "vCvwPAZx_o0",
     image: "https://img.youtube.com/vi/vCvwPAZx_o0/maxresdefault.jpg",
     length: "7.42",
     icon:
@@ -169,7 +169,7 @@
     description: "Tech companies are trying to take over the world. I’m not just being alarmist, that’s the current business model of tech companies as they try to be the one stop shop for your life. Don’t believe me? Let’s take a closer look at just what tech companies have been up to."
   },
   {
-    _id: "gA3mM2w2hRg",
+    id: "gA3mM2w2hRg",
     image: "https://img.youtube.com/vi/gA3mM2w2hRg/maxresdefault.jpg",
     length: "12:35",
     icon:
@@ -183,7 +183,7 @@
       "Doston Har dusre teesre din ek smartphone launch ho raha hai aur jab aap smartphone lete ho toh 15-20 dino ke baad aise lagtaa hai ki thodi der ruk jaana chahiye tha"
   },
   {
-    _id: "XADAYYCnp4w",
+    id: "XADAYYCnp4w",
     image: "https://img.youtube.com/vi/XADAYYCnp4w/maxresdefault.jpg",
     length: "12.01",
     icon:
@@ -196,7 +196,7 @@
     description: "Friends, welcome to yet another amazing buying guide video. In today's video we are discussing which laptop should you buy and how you can get the best bang for you buck, So do watch this video till the end to know everything."
   },
   {
-    _id: "u8tnYt30L-A",
+    id: "u8tnYt30L-A",
     image: "https://img.youtube.com/vi/u8tnYt30L-A/maxresdefault.jpg",
     length: "13.54",
     icon:
@@ -209,7 +209,7 @@
     description: "This talk was given at a local TEDx event, produced independently of the TED Conferences. Gonzalo is the CEO & Co-Founder of Vandrico, a technology company that enables wearable technology in the workplace. Gonzalo believes that wearable technology is something that will change our lives in the present, and in the coming future."
   },
   {
-    _id: "DppJZQJ9n0g",
+    id: "DppJZQJ9n0g",
     image: "https://img.youtube.com/vi/DppJZQJ9n0g/maxresdefault.jpg",
     length: "10.22",
     icon:
@@ -223,7 +223,7 @@
       "Dosto aaj ki video me maine aapko kuch smartphones bataye hai jo aapko May 2022 me dekhne ko mil jayenge to aapko mast wale flagship killer milenge wo bhi kam price pe :)"
   },
   {
-    _id: "WN28MKAK-fA",
+    id: "WN28MKAK-fA",
     image: "https://img.youtube.com/vi/WN28MKAK-fA/maxresdefault.jpg",
     length: "8.58",
     icon:
@@ -236,7 +236,7 @@
     description: "What if your wearable device could save your life? Nanotechnologist Dr Noushin Nasiri asks what wearable technology can do for future of healthcare, by empowering us with the ability to monitor our own wellness before we develop illness, and to help our healthcare systems become more proactive and predictive."
   },
   {
-    _id: "1mS99Gmw1sI",
+    id: "1mS99Gmw1sI",
     image: "https://img.youtube.com/vi/1mS99Gmw1sI/maxresdefault.jpg",
     length: "11.58",
     icon:
@@ -249,7 +249,7 @@
     description: `OMEN 16" with Intel Core i7 Processor ka gaming Laptop aagaya hai Aur iske mazedar gaming  features try kar liye jaye`
   },
   {
-    _id: "tC6FtVKXNhc",
+    id: "tC6FtVKXNhc",
     image: "https://img.youtube.com/vi/tC6FtVKXNhc/maxresdefault.jpg",
     length: "10.29",
     icon:
@@ -262,7 +262,7 @@
     description: "Hello Everybody, Here I am with another list of best upcoming laptops in India 2022. Watching this full will be very helpful if you are planning to a buy new laptop in 2022. "
   },
   {
-    _id: "zmvAHh-sKws",
+    id: "zmvAHh-sKws",
     image: "https://img.youtube.com/vi/zmvAHh-sKws/maxresdefault.jpg",
     length: "9.43",
     icon:
@@ -277,7 +277,7 @@
     Thanks for watching`
   },
   {
-    _id: "vRs-FrmFhos",
+    id: "vRs-FrmFhos",
     image: "https://img.youtube.com/vi/vRs-FrmFhos/maxresdefault.jpg",
     length: "8.02",
     icon:
