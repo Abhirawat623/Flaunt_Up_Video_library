@@ -23,7 +23,9 @@ const categoriesRouter = require("./routers/categories.router");
 
 const categoriesDbRouter = require('./routers/categoriesDataImport.router');
 
-const singleVideoRouter = require('./routers/singleVideo.router')
+const singleVideoRouter = require('./routers/singleVideo.router');
+
+const wishlistRouter= require('./routers/wishlist.router');
 
 
 app.get("/",(req,res)=>{
@@ -49,6 +51,9 @@ const { signUpRouter, logInRouter } = require("./routers/auth.router");
 app.use("/api/auth", signUpRouter);
 
 app.use("/api/auth", logInRouter);
+
+//wishlist
+app.use("/api/wishlist",wishlistRouter);
 
 
 
