@@ -27,7 +27,6 @@ const loginHandle = async (req, res) => {
       { username: user.username },
       process.env.ACCESS_TOKEN
     );
-
     res.json({ ...rest, accessToken });
   } catch (err) {
     res.status(500).json(err);

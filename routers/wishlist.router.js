@@ -6,17 +6,17 @@ const wishlistController = require("../controllers/wishlistController");
 
 const {addWishlistHandle,deleteWishlistHandle,getWishlistHandle} = wishlistController;
 
-const router = express.Router();
+const wishlistRouter = express.Router();
 
 //adding wishlist
-router.route("/").post(verifyUSer,addWishlistHandle);
+wishlistRouter.route("/").post(verifyUSer,addWishlistHandle);
 
 //deleting wishlist
 
-router.route("/").delete(verifyUSer,deleteWishlistHandle);
+wishlistRouter.route("/:videoId").delete(verifyUSer,deleteWishlistHandle);
 
 //getting wishlist
 
-router.route("/").get(verifyUSer,getWishlistHandle);
+wishlistRouter.route("/").get(verifyUSer,getWishlistHandle);
 
-module.exports= router;
+module.exports= wishlistRouter;

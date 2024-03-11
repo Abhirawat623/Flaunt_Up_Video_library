@@ -18,17 +18,24 @@ try {
 const deleteWishlistHandle= async (req,res)=>{
 
     try {
-        await Wishlist.findByIdAndDelete(req.params.id)
+        const videoId = req.params.videoId;
+        const deletedItem = await Wishlist.findByIdAndDelete(videoId);
+
+        if (!deletedItem) {
+            return res.status(404).json({ message: `Item with ID ${videoId} not found` });
+        }
+
+        res.status(200).json({ message: `Item with ID ${videoId} deleted successfully` });
     } catch (error) {
-        res.status(500).json({message:'could not delete video from wishlist'})
-        
+        console.error('Error deleting wishlist item:', error);
+        res.status(500).json({ message: 'Could not delete video from wishlist' });
     }
 }
 
 const getWishlistHandle = async (req,res)=>{
  try {
     const wishlist = await Wishlist.find({});
-    wishlist ? res.status(wishlist) : res.status(404).json({message:"No Video Found"})
+    wishlist ? res.json(wishlist) : res.status(404).json({message:"No Video Found"})
  } catch (error) {
     res.json(error)
  }    
