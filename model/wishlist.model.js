@@ -1,7 +1,8 @@
 const mongoose= require("mongoose");
 
 const wishlistSchema = new mongoose.Schema({
-    videoId :{type:String,required:true}
+    videoId :{type:String,required:true,unique:true},
+    
    
 },
 {

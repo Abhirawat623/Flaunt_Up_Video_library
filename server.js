@@ -27,6 +27,10 @@ const singleVideoRouter = require('./routers/singleVideo.router');
 
 const wishlistRouter= require('./routers/wishlist.router');
 
+const historyRouter = require('./routers/history.router');
+
+const archivedRouter= require('./routers/archived.router');
+
 
 app.get("/",(req,res)=>{
     res.send("hello all")
@@ -55,6 +59,11 @@ app.use("/api/auth", logInRouter);
 //wishlist
 app.use("/api/wishlist",wishlistRouter);
 
+//history
+app.use("/api/history",historyRouter);
+
+//archived
+app.use("/api/archived",archivedRouter)
 
 
 mongoose.connection.once("open",()=>{
