@@ -1,7 +1,7 @@
 const mongoose= require("mongoose");
 
 const playlistSchema = new mongoose.Schema({
-    videoId :{type:String,required:true,unique:true},
+    videoId :{type:String,required:true},
     playlistName:{type:String,required:true,unique:true}
 },
 {
