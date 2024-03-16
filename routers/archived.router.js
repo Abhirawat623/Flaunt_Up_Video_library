@@ -8,14 +8,14 @@ const {addArchivedHandle,deleteArchivedHandle,getArchivedHandle} = archivedContr
 
 const archivedRouter = express.Router();
 
-//adding wishlist
+//adding Archived
 archivedRouter.route("/").post(verifyUSer,addArchivedHandle);
 
-//deleting wishlist
+//deleting Archived
 
 archivedRouter.route("/:videoId").delete(verifyUSer,deleteArchivedHandle);
 
-//getting wishlist
+//getting Archived
 
 archivedRouter.route("/").get(verifyUSer,getArchivedHandle);
 

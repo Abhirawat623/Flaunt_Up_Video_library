@@ -31,6 +31,8 @@ const historyRouter = require('./routers/history.router');
 
 const archivedRouter= require('./routers/archived.router');
 
+const playlistRouter = require("./routers/playlist.router");
+
 
 app.get("/",(req,res)=>{
     res.send("hello all")
@@ -64,6 +66,9 @@ app.use("/api/history",historyRouter);
 
 //archived
 app.use("/api/archived",archivedRouter)
+
+//playlist
+app.use("/api/playlist",playlistRouter)
 
 
 mongoose.connection.once("open",()=>{

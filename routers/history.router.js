@@ -8,14 +8,14 @@ const {addHistoryHandle,deleteHistoryHandle,getHistoryHandle} = historyControlle
 
 const historyRouter = express.Router();
 
-//adding wishlist
+//adding History
 historyRouter.route("/").post(verifyUSer,addHistoryHandle);
 
-//deleting wishlist
+//deleting History
 
 historyRouter.route("/:videoId").delete(verifyUSer,deleteHistoryHandle);
 
-//getting wishlist
+//getting History
 
 historyRouter.route("/").get(verifyUSer,getHistoryHandle);
 
