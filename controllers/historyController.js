@@ -19,7 +19,8 @@ const deleteHistoryHandle= async (req,res)=>{
 
     try {
         
-        const deletedItem = await History.deleteMany({})
+        const videoId = req.params.videoId;
+        const deletedItem = await Playlist.findByIdAndDelete(videoId);
 
         if (!deletedItem) {
             return res.status(404).json({ message: `Nothing not found to delete` });
